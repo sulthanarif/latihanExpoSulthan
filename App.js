@@ -1,15 +1,13 @@
 import { NavigationContainer } from "@react-navigation/native";
 import { StatusBar } from "expo-status-bar";
 import { Button, StyleSheet, Text, View } from "react-native";
+import Index from "./Router/Index";
 
 export default function App() {
   return (
-    // navigation container
+    // navigation container  
     <NavigationContainer>
-      <View style={styles.container}>
-        <Text>App</Text>
-        {/* button to home */}
-      </View>
+      <Index />
     </NavigationContainer>
   );
 }
